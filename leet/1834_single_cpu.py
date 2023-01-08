@@ -166,3 +166,4 @@ def single_threaded_cpu_sort_input(tasks = [[1,2],[2,4],[3,2],[4,1]]):
 
         if len(queue) == 0 and position_in_tasklist >= len(tasks):
             return processed
+            
